@@ -27,7 +27,6 @@ let bouncyBall = () => {
         ballPosition -= 31;
         screen[ballPosition] = 1;
         if (ballPosition - 30 < 0) {
-            directionX = "left";
             directionY = "down";
         }
     } else if (directionX === "left" && directionY === "down") {
